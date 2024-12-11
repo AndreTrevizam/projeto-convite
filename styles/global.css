@@ -16,6 +16,12 @@
 
   --color-pink: #FF598B;
   --color-heading: #F9F9F9;
+  --color-body: #C8CDD0;
+
+  --input-stroke: #363B40;
+  --input-base: #1C1F21;
+
+  --brand-light: #59B2FF;
 }
 
 body{
