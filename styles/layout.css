@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.aside-container {
+  background-image: url(../assets/images/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  max-width: 25rem;
+  padding: 2rem;
+
+  & #logo {
+    width: 45px;
+    height: 48px;
+    margin-bottom: 1rem;
+  }
+
+  & h1 {
+    font: var(--text-logo);
+    color: var(--color-pink);
+    margin-bottom: 0.25rem;
+  }
+
+  & p {
+    font: var(--text-md);
+    color: var(--color-heading);
+  }
+}
+
+
+
+.main-container {
+
+}
