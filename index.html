@@ -31,9 +31,23 @@
 
           <fieldset class="event-info">
             <div class="input-wrapper">
-              <label for="">Título</label>
-              <input type="text" placeholder="Nome do Evento">
+              <label for="title">Título</label>
+              <input type="text" name="title" id="title" placeholder="Nome do Evento">
             </div>
+
+
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label for="beginning">Início</label>
+                <input type="date" name="beginning">
+              </div>
+  
+              <div class="input-wrapper flex-1">
+                <label for="end">Fim</label>
+                <input type="date" name="end">
+              </div>
+            </div>
+            
           </fieldset>
         </form>
       </div>

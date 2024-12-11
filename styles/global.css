@@ -27,3 +27,11 @@
 body{
   background-color: #212427;;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}

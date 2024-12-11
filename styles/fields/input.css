@@ -22,3 +22,7 @@ select:focus,
 textarea:focus{
   outline: 1px solid var(--brand-light);
 }
+
+.event-info .flex {
+  gap: 1rem;
+}
