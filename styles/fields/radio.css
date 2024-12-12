@@ -1,0 +1,57 @@
+.tipo-container {
+  display: inline-block;
+}
+
+.tipo-selector {
+  display: flex;
+  background-color: var(--input-base); /* Fundo do seletor */
+  border-radius: .5rem;
+  overflow: hidden;
+  border: 1px solid var(--input-stroke);
+}
+
+.tipo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: .75rem;
+  font: var(--text-sm);
+  color: var(--color-body);
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+.tipo-button:hover {
+  background-color: var(--color-hover);
+  font-weight:  600;
+}
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.icon.presencial {
+  background: url(../../assets/icons/presencial.svg) no-repeat center;
+  background-size: contain;
+}
+
+.tipo-button:hover .icon.presencial {
+  background-image: url(../../assets/icons/presencial-hover.svg); /* Ícone ao hover */
+}
+
+.icon.online {
+  background: url(../../assets/icons/online.svg) no-repeat center;
+  background-size: contain;
+}
+
+.tipo-button:hover .icon.online {
+  background-image: url(../../assets/icons/online-hover.svg); /* Ícone ao hover */
+}
