@@ -23,6 +23,9 @@
   --input-base: #1C1F21;
 
   --brand-light: #59B2FF;
+
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
 }
 
 body{

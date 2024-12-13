@@ -35,7 +35,7 @@
 
 .main-container {
   overflow: auto;
-  max-width: 60rem;
+  max-width: 50rem;
   padding-inline: 8.125rem;
 
   & .about-event{
@@ -45,6 +45,10 @@
     margin-bottom: 1.5rem;
     color: var(--color-heading);
     font: var(--head-sm);
+  }
+
+  & .text-area + .about-event{
+    margin-top: 3rem;
   }
 
   & h1 {
