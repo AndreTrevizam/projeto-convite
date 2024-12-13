@@ -1,8 +1,9 @@
 .color-picker {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .color-picker input[type="radio"] {

@@ -35,7 +35,7 @@
 
 .main-container {
   overflow: auto;
-  max-width: 50rem;
+  max-width: 60rem;
   padding-inline: 8.125rem;
 
   & .about-event{
