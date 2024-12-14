@@ -56,3 +56,15 @@
     color: var(--color-heading);
   }
 }
+
+.contact-area {
+  & .flex {
+    gap: 1rem;
+  }
+
+  & .input-wrapper {
+    margin-top: 1rem;
+    gap: .5rem;
+    margin-bottom: 3rem;
+  }
+}

@@ -39,3 +39,7 @@ body{
 .flex-1 {
   flex: 1;
 }
+
+.line {
+  border: 1px solid var(--input-stroke);
+}
