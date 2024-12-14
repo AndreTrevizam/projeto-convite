@@ -1,0 +1,26 @@
+.custom-file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  text-align: center;
+  width: 7.5rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  background-color: var(--shape-button);
+  position: relative;
+
+  & input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    opacity: 0;
+  }
+
+  & p {
+    font: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+}
